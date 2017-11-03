@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/W3.dir/main.c.o CMakeFiles/W3.dir/linked_lists.c.o  -o W3 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/impacs/crd10/W2/inchConverter.h
+
+/impacs/crd10/W2/main.c
+stdio.h
+-
+inchConverter.h
+/impacs/crd10/W2/inchConverter.h
+

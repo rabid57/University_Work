@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/impacs/crd10/Documents/W3/linked_list.h
+
+/impacs/crd10/Documents/W3/linked_lists.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+linked_list.h
+/impacs/crd10/Documents/W3/linked_list.h
+
+/impacs/crd10/Documents/W3/main.c
+stdio.h
+-
+stdlib.h
+-
+linked_list.h
+/impacs/crd10/Documents/W3/linked_list.h
+

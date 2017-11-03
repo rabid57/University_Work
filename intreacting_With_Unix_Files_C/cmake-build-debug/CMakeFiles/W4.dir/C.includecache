@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/impacs/crd10/Documents/W4/main.c
+stdio.h
+-
+stdlib.h
+-
+dirent.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+
